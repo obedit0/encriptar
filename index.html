@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+
+<body>
+    <div class="bodyContainer">
+        <div class="left">
+            <div class="leftBody">
+                <textarea id="inputTexts" class="inputText" id="" cols="30" rows="10" placeholder="Ingrese texto aqui"></textarea>
+            </div>
+            <div class="leftFooter">
+                <span>
+                    <img src="./bi_exclamation-circle-fill.png" alt="">
+                <p>Solo letras minisculas y sin acentos</p>
+                </span>
+                <button id="encriptar" type="submit">Encriptar</button>
+                <button id="desencriptar" class="btn-Desencriptar">Desencriptar</button>
+            </div>
+
+        </div>
+        <div class="right">
+            <div class="capa1">
+                    <img src="./Muñeco.png" alt="">
+                    <h2>Ningún mensaje fue encontrado</h2>
+                    <p>Ingresa el texto que desees encriptar o desencriptar</p>
+            </div>
+            <div class="capa2" style="display:none;">
+                <p id="textShow"></p>
+                <button id="copyText">Copiar</button>
+            </div>
+        </div>
+    </div>
+    <script src="./javascript.js"></script>
+</body>
+
+</html>
